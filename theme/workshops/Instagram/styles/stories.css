@@ -1,0 +1,14 @@
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 22px;
+    
+    @media (--phonePortrait),
+        (--phoneLandscape),
+        (--tabletPortrait),
+        (--tabletLandscape) {
+        justify-content: center;
+    }
+}
